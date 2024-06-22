@@ -103,7 +103,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -118,7 +118,7 @@ body {
     width: 30%;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: transparent;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     text-align: center; /* Center content */
@@ -139,11 +139,14 @@ body {
 
 .movie a {
     text-decoration: none;
-    color: #333;
+    color: #f5f3f3;
     display: block;
     transition: transform 0.2s ease;
 }
 
 .movie a:hover {
     transform: scale(1.05);
+}
+.list{
+    color: #f0f0f0;
 }
