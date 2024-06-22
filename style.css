@@ -10,6 +10,7 @@ body{
     background: url(360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    color: blue;
 }
 .header {
     position: fixed;
