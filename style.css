@@ -103,7 +103,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: transparent;
+    background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -118,7 +118,7 @@ body {
     width: 30%;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: transparent;
+    background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     text-align: center; /* Center content */
