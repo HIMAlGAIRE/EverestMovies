@@ -93,3 +93,57 @@ body {
         display: block;
     }
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: transparent;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center; /* Center content */
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block; /* Ensures images don't have extra space below */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+.movie p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.movie a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.movie a:hover {
+    transform: scale(1.05);
+}
