@@ -33,6 +33,11 @@ body {
     font-weight: 700;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar a {
     position: relative;
     text-decoration: none;
@@ -52,7 +57,7 @@ body {
     transition: .3s;
 }
 
-.navbar a:hover:before {
+.navbar a:hover::before {
     width: 100%;
 }
 
