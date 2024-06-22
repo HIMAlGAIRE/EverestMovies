@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: url(360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg) no-repeat;
+    background: url();
     background-size: cover;
     background-position: center;
 }
@@ -156,4 +156,14 @@ body {
 }
 .list{
     color: #f0f0f0;
+}
+.back{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+height: auto;
+    
 }
